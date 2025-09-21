@@ -37,8 +37,8 @@ Responsive design for desktop and mobile.
 - Icons & Visuals: Lucide React
 
 # 📸 Screenshots / Demo
-<img width="1887" height="916" alt="image" src="https://github.com/user-attachments/assets/b3fc5b45-7ca9-4394-adf9-b94e4cbbef3a" />
-<img width="1877" height="916" alt="image" src="https://github.com/user-attachments/assets/f835a749-a9c5-4476-9958-d621f4ab1e28" />
+<img width="1887" height="916" alt="Screenshot 2025-09-21 155920" src="https://github.com/user-attachments/assets/fe40892a-9bdb-474e-b368-62fd210aacde" />
+<img width="1877" height="916" alt="image" src="https://github.com/user-attachments/assets/83e1b410-8624-4001-be70-5b7ef65932cc" />
 
 # 🛠 Installation
 
