@@ -2,6 +2,7 @@
 
 import { ArrowRight, FileText, BookOpen, Scale, Shield, Zap, Users, CheckCircle, Star } from "lucide-react"
 import { useState } from "react"
+import Link from "next/link"
 
 export default function HomePage() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null)
@@ -18,7 +19,7 @@ export default function HomePage() {
           <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary/20 border border-primary/30">
             <Scale className="w-5 h-5 text-primary" />
           </div>
-          <span className="text-xl font-bold text-balance">AI Legal Assistant</span>
+          <span className="text-xl font-bold text-balance">LexiClear</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
@@ -59,9 +60,14 @@ export default function HomePage() {
             <button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2 animate-glow">
               Try Simplifier <ArrowRight className="w-5 h-5" />
             </button>
-            <button className="border border-foreground bg-transparent hover:bg-white/10 px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2">
+            {/* <button className="border border-foreground bg-transparent hover:bg-white/10 px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2">
               Try Explainer <BookOpen className="w-5 h-5" />
-            </button>
+            </button> */}
+            <Link href="/explainer">
+  <button className="border border-foreground bg-transparent hover:bg-white/10 px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2">
+    Try Explainer <BookOpen className="w-5 h-5" />
+  </button>
+</Link>
           </div>
 
           {/* Trust Indicators */}
@@ -180,7 +186,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary/20 border border-primary/30">
               <Scale className="w-4 h-4 text-primary" />
             </div>
-            <span className="font-semibold">AI Legal Assistant</span>
+            <span className="font-semibold">LexiClear</span>
           </div>
 
           <div className="text-center lg:text-left">
