@@ -63,6 +63,26 @@ const mockResponses: Record<string, any> = {
   }
 }
 
+// Add the missing generateFallbackResponse function
+function generateFallbackResponse(term: string, reason: string = "API limit") {
+  // Check if we have a mock response for this term
+  const lowerTerm = term.toLowerCase();
+  if (mockResponses[lowerTerm]) {
+    return mockResponses[lowerTerm];
+  }
+  
+  // Generate a generic fallback response
+  return {
+    definition: `${term} is a legal term that refers to concepts in the justice system. (Note: ${reason})`,
+    example: `For example, ${term} might apply in situations where...`,
+    implications: [
+      "Consult legal resources for more specific information",
+      "The application of this term may vary by jurisdiction",
+      "Consider seeking professional legal advice for your specific situation"
+    ]
+  };
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json()
