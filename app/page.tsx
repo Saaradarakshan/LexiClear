@@ -57,9 +57,11 @@ export default function HomePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            <Link href="/simplify">
             <button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2 animate-glow">
               Try Simplifier <ArrowRight className="w-5 h-5" />
             </button>
+            </Link>
             {/* <button className="border border-foreground bg-transparent hover:bg-white/10 px-8 py-4 text-lg rounded-lg flex items-center justify-center gap-2">
               Try Explainer <BookOpen className="w-5 h-5" />
             </button> */}
@@ -94,6 +96,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-8">
 
             {/* Simplifier Card */}
+            <Link href="/simplify">
             <div
               className="group relative p-8 lg:p-12 bg-white/10 rounded-xl border border-white/20 hover:border-primary/50 transition-all duration-500 cursor-pointer animate-float"
               onMouseEnter={() => setHoveredCard("simplifier")}
@@ -122,6 +125,7 @@ export default function HomePage() {
                 </button>
               </div>
             </div>
+            </Link>
 
             {/* Explainer Card */}
             <div
