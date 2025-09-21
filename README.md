@@ -39,6 +39,8 @@ Responsive design for desktop and mobile.
 # 📸 Screenshots / Demo
 <img width="1887" height="916" alt="Screenshot 2025-09-21 155920" src="https://github.com/user-attachments/assets/fe40892a-9bdb-474e-b368-62fd210aacde" />
 <img width="1877" height="916" alt="image" src="https://github.com/user-attachments/assets/83e1b410-8624-4001-be70-5b7ef65932cc" />
+<img width="1876" height="912" alt="Screenshot 2025-09-21 191329" src="https://github.com/user-attachments/assets/2956a134-bc4a-483a-be05-521b25053c51" />
+<img width="1878" height="912" alt="image" src="https://github.com/user-attachments/assets/3cc0c18b-44c7-40c1-84df-016e4ef12512" />
 
 # 🛠 Installation
 
